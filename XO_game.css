@@ -1,0 +1,135 @@
+.check{
+    height: 800px;
+    width: 600px;
+    background-color: rgba(194, 194, 202, 0.568);
+    margin-top: 5%;
+}
+.btn_con{
+    display: flex;
+    justify-content: center;
+    height: 100px;
+}
+.button{
+    background-color: rgba(0, 119, 255, 0.815);
+    height: 80px;
+    width: 240px;
+    font-size: 32px;
+    border-radius: 10px;
+    border-style: hidden;
+    color: white;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 40px;
+}
+.turn{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    font-size: 50px;
+    height: 100px;
+}
+.row{
+    display: flex;
+}
+.t2{
+    color: rgb(22, 255, 1);
+}
+p{
+    margin-top: 40px;
+}
+.content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding-top: 20px;
+}
+.box-yellow{
+       height: 120px;
+       width: 140px;
+       border-radius: 10px;
+       background-color: yellow;
+       color: white ;
+       font-size: 35px;
+}
+.box-blue{
+       height: 120px;
+       width: 140px;
+       border-radius: 10px;
+       background-color:rgba(10, 65, 245, 0.808);
+       color: white ;
+       font-size: 35px;
+}
+.box-green{
+    height: 120px;
+    width: 140px;
+    border-radius: 10px;
+    background-color:rgb(57, 245, 10);
+    color: white ;
+    font-size: 35px;
+}
+.controls{
+    display: flex;
+    height: 80px;
+    width: 400px;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 5%;
+}
+.toggle-btn{
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    padding-left: 2%;
+    width: 20%;
+    background-color: #c1c1c1;
+    border-radius: 30px;
+    height: 60%;
+}
+.btn-round{
+    width: 50%;
+    background-color: white;
+    height: 80%;
+    border-radius: 100%;
+}
+.Back-btn{
+    height: 60%;
+    width: 25%;
+    background-color: #c1c1c1;
+    color: whitesmoke;
+    font-size: large;
+    border-radius: 7px;
+    border-style: hidden;
+}
+.reset-btn{
+    height: 60%;
+    width: 25%;
+    background-color: #fc00ce;
+    color: whitesmoke;
+    font-size: large;
+    border-radius: 7px;
+    border-style: hidden;
+}
+/* Centering text in the boxes */
+.box-yellow, .box-blue, .box-green {
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    height: 120px;
+    width: 140px;
+    border-radius: 10px;
+    color: white;
+    font-size: 35px;
+}
+
+.box-yellow {
+    background-color: yellow;
+}
+
+.box-blue {
+    background-color: rgba(10, 65, 245, 0.808);
+}
+
+.box-green {
+    background-color: rgb(57, 245, 10);
+}
